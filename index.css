@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    margin : 0px;
+    background-color: #2B2B2B;
+    color : white;
+}
+
+sidebar {
+    display: block;
+    width: 190px;
+    height: 100%;
+    background: rgb(78,78,77);
+    background: linear-gradient(0deg,rgba(154,154,154,0) rgba(78,78,77,1) 50%, rgba(107,107,107,0.38) 100%);
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+profileSection {
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+mainMenu {
+    margin: auto;
+    margin-top : 36px;
+}
+
+
