@@ -1,0 +1,54 @@
+menuContainer {
+    margin-top: 100px;
+    display: grid;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 120px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.recipe {
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    background-color: #434343;
+}
+
+.recipeLabel {
+    display: flex;
+    position: relative;
+    left : -15px;
+    margin-top: 20px;
+    width : 220px;
+    height: 40px;
+    background-color: #5A5A5A;
+    justify-content: start;
+    align-items: center;
+}
+
+.labelText {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.recipeImg {
+    position: relative;
+    border-radius: 20px;
+    left: 10px;
+    top: 10px;
+    width: 180px;
+    height: 160px;
+    margin:auto;
+}
+
+
+.navText {
+    margin-left: 20px;
+}
+
+.recipe:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+

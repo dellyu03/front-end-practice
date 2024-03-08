@@ -6,6 +6,8 @@
     <title>ZLI : your best hometending partner</title>
     <link rel = "stylesheet" href = "CSS/index.css">
     <link rel = "stylesheet" href = "CSS/sidebar.css">
+    <link rel = "stylesheet" href = "CSS/searchbar.css">
+    <link rel = "stylesheet" href = "CSS/mainMenu.css">
 </head>
 <body>
     <sidebar>
@@ -21,25 +23,79 @@
                     </profileText>
                 </profileSection>
             </li>
-            <li class = "colorMenu"></li>
-            <li class = "blankMenu">Purchase</li>
-            <li class = "colorMenu">Manage Recipes</li>
-            <li class = "blankMenu">Tasting Note</li>
-            <li class = "colorMenu">Settings</li>
-            <li class = "blankMenu"></li>
+            <li class = "navSelector colorMenu"></li>
+            <li class = "navSelector blankMenu">
+                <div class = "navText">Purchase</div>
+            </li>
+            <li class = "navSelector colorMenu">
+                <div class = "navText">Manage Recipe</div>
+            </li>
+            <li class = "navSelector blankMenu">
+                <div class = "navText">Tasting Note</div>
+            </li>
+            <li class = "navSelector colorMenu">
+                <div class = "navText">Settings</div>
+            </li>
+            <li class = "navSelector blankMenu"></li>
         </ul>
     </sidebar>
     <content>
-        
+        <div id = "searchBar">
+            <div id = "searchBar-Content">검색어를 입력하세요</div>
+        </div>
+        <mainMenu>
+            <menuContainer>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/20231013_201932.jpg" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">Blue Hawai</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/dhfemvotusem.jpg" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">Old Fashioned</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/image_1653639180803.png" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">PeachCrush</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/Rkffndk milk.png" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">Kahllua Milk</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/dekilla sunrise.jpg" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">Dekilla Sunrise</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/pinacolada.jpg" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">PinaCollada</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/blue spyhere.png" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">Blue Sapphire</div>
+                    </div>
+                </div>
+                <div class = "recipe">
+                    <img class ="recipeImg" id = "firstRecipeImg" src = "img/cocktail_img/pahuse.jpg" alt = "이미지">
+                    <div class = "recipeLabel">
+                        <div class = "labelText">Faust</div>
+                    </div>
+                </div>
+                
+            </menuContainer>
+        </mainMenu>
     </content>
-    <searchBar>
-        <div></div>
-    </searchBar>
-    <mainMenu>
-        <menuContainer>
-            <div>Blue Hawai</div>
-            <div>Faust</div>
-        </menuContainer>
-    </mainMenu>
 </body>
 </html>

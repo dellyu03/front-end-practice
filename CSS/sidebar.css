@@ -51,3 +51,9 @@ introduce {
 li{
     list-style: none;
 }
+
+.navSelector:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
